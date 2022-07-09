@@ -316,7 +316,7 @@ io.sockets.on('connect', (socket) => {
         log.debug('[' + socket.id + '] disconnected');
         delete sockets[socket.id];
     });
-
+ 
     /**
      * On peer join
      */
